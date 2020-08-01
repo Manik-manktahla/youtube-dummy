@@ -1,0 +1,45 @@
+.tile {
+  width: 300px;
+  margin: 15px;
+}
+
+.tile__image {
+  object-fit: cover;
+  width: 300px;
+  height: 175px;
+}
+
+.tile__content {
+  display: flex;
+  text-align: initial;
+}
+
+.tile__subContent {
+  padding-left: 10px;
+  flex: 1;
+}
+
+.title__value {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  text-overflow: ellipsis;
+}
+
+.title__valueGrey {
+  color: #606060;
+}
+
+.tile__channelTick {
+  color: #606060;
+  width: 0.9rem !important;
+  height: 0.9rem !important;
+}
+
+.tile__reminder{
+  width: fit-content;
+  border-radius: 0px;
+  font-size: 15px;
+  color: #606060;
+  background-color: rgba(0,0,0,0.1);
+  font-weight: 600;
+}

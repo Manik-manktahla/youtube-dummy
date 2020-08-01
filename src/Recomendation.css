@@ -1,0 +1,12 @@
+.recomm__container{
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  width: 84vw;
+  padding: 20px;
+}
+
+.recomm__container::-webkit-scrollbar{
+  display: none;
+}

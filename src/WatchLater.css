@@ -1,0 +1,50 @@
+.watchLater__tile{
+  transform: scale(0.90);
+  margin: 0px;
+  width: 100%;
+}
+
+.watchLater__img{
+  width: 300px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.watchLater{
+  display: flex;
+  width: 100%;
+}
+
+.watchLater__fixed{
+  position: fixed;
+  padding: 25px;
+}
+
+.watchLater__subTile{
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.watchLater__content{
+  position: absolute;
+  left: 40vw;
+  background-color: #f1f1f1;
+  
+}
+
+.watchLater__divider{
+  width: 100%;
+}
+
+.watchLater__lock{
+  display: flex;
+  padding: 5px 0px;
+  padding-right: 5px;
+  background-color:  #f1f1f1;
+  width: fit-content;
+}
+
+.watchLater__sub{
+  padding: 5px 0px;
+}

@@ -1,0 +1,80 @@
+.header__searchIconContainer {
+  background-color: #d3d3d3 !important;
+  border-radius: 0px !important;
+  max-height: 30px !important;
+}
+
+.header__searchIconContainer:hover {
+  border: 1px solid black !important;
+}
+
+.header__showLink {
+  border-radius: 5px !important;
+  font-size: 15px !important;
+}
+
+.header__list .MuiTypography-body1 {
+  font-size: 14px !important;
+}
+
+.header__list .MuiAvatar-root {
+  width: 30px;
+  height: 30px;
+}
+
+.header__selected {
+  background-color: lightgray !important;
+}
+
+.header__selected .MuiListItemIcon-root {
+  color: red !important;
+}
+
+
+.recomm__container{
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  width: 84vw;
+  padding: 20px;
+  position: fixed;
+  background-color: #fffffff7;
+  z-index: 999;
+  border-bottom: 1px solid #0000003b;
+}
+
+.recomm__container::-webkit-scrollbar{
+  display: none;
+}
+
+.header__subscriptionsHeading{
+  margin-left: 15px;
+  margin-top: 15px; 
+}
+
+
+.header__searchField{
+  min-width: 500px;
+  height: 30px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .header__searchField{
+    min-width: unset;
+  }
+}
+
+
+.header__yt{
+  color: black;
+  font-size: 20px;
+}
+
+.header__yt:hover{
+  border: none;
+}
+
+.header__user{
+  background-color: #31c5b8 !important;
+}

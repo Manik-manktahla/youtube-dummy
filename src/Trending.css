@@ -1,0 +1,22 @@
+.trending__container{
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.trending__main{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-right: 30px;
+}
+
+.trending__main .MuiSvgIcon-root{
+  font-size: 3.5rem;
+}
+
+.trending{
+  margin-left: 40px;
+}

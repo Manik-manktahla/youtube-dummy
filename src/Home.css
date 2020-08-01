@@ -1,0 +1,17 @@
+.home__container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home{
+  margin: 30px 20px;
+}
+
+.home__main{
+  padding: 43px 40px;;
+}
+
+.home__divider{
+  margin: 0px 20px !important;
+  height: 3px !important;
+}

@@ -1,0 +1,47 @@
+.historyTile {
+  transform: scale(0.80);
+  margin: 0px;
+}
+
+.history {
+  display: flex;
+  /* background-color: #f1f1f1; */
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.history__content {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  width: 26%;
+  padding: 15px;
+  padding-top: 40px;
+  position: fixed;
+  right: 0px;
+  height: 100vh;
+  top: 65px;
+}
+
+.history__contentBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.history__links {
+  padding: 10px 0px;
+}
+
+.history__heading {
+  margin-left: 85px;
+}
+
+.history__tiles{
+  width: 92%;
+}
+
+.history__divider{
+  width: 100%;
+  margin: 7px 0px !important;
+}

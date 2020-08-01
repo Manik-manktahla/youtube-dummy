@@ -1,0 +1,42 @@
+.tileHorizontal {
+  width: 80%;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.tile__image {
+  object-fit: cover;
+  width: 300px;
+  height: 175px;
+}
+
+.tile__content {
+  display: flex;
+  text-align: initial;
+}
+
+.tileHorizontal__subContent {
+  padding-left: 20px;
+  flex: 1;
+}
+
+.title__value {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  text-overflow: ellipsis;
+}
+
+.title__valueGrey {
+  color: #606060;
+}
+
+.tile__channelTick {
+  color: #606060;
+  width: 0.9rem !important;
+  height: 0.9rem !important;
+}
+
+.titleHorizontal__views{
+  margin-left: 20px;
+}
